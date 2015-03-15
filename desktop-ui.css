@@ -1,0 +1,46 @@
+#desktop {
+	width: 1300px;
+	height: 670px;
+	top: 0px;
+	left: 0px;
+	background: url(images/fondo.jpg) no-repeat center center;
+	position: absolute;
+}
+
+.draggable, .button {
+	width: 70px;
+	height: 70px;
+	margin: 5px;
+}
+
+#menu {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+#iconsmenu {
+	position: absolute;
+	bottom: 80px;
+}
+
+#datepicker {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 100px;
+}
+
+#power {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+#message {
+	text-align: center;
+}
+
+.hidden {
+	visibility: hidden;
+}

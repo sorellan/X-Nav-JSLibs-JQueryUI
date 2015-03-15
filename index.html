@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>User Interface with jQuery UI</title>
+	<link rel="stylesheet" href="jquery-ui.min.css">
+	<link rel="stylesheet" href="desktop-ui.css"
+</head>
+<body>
+	<div id="desktop">
+		<div id="icons">
+			<img id="paperbin" class="draggable droppable" src="images/paper-empty.png">
+			<img id="chrome" class="draggable toggler" src="images/chrome.png">
+			<img id="firefox" class="draggable toggler" src="images/firefox.png">
+			<img id="adobe" class="draggable toggler" src="images/adobe.png">
+			<img id="gimp" class="draggable toggler" src="images/gimp.png">
+			<img id="skype" class="draggable toggler" src="images/skype.png">
+			<img id="spotify" class="draggable toggler" src="images/spotify.png">
+		</div>
+		<div id="iconsmenu" class="toggler">
+      		<div id="conjunto2" style = "display:none">
+      			<img class="button" src="images/sublime.png"></img>
+      			<img class="button" src="images/arduino.png"></img>
+      			<img class="button" src="images/androidstudio.png"></img>
+      			<img class="button" src="images/eclipse.png"></img>
+      		</div>
+      		<div id="conjunto1" style = "display:none">
+      			<img class="button" src="images/word.png"></img>
+      			<img class="button" src="images/excel.png"></img>
+      			<img class="button" src="images/ppt.png"></img>
+      			<img class="button" src="images/access.png"></img>
+      		</div>
+    	</div>
+    	<input type="text" id="datepicker" value="Date">
+		<img id="menu" class="button" src="images/home.png">
+		<img id="power" class="button" src="images/shutdown.png">
+		<div id="message" class="hidden">
+			<p>Espere...</p>
+			<p>Apagando el sistema.</p>
+		</div>
+	</div>
+	<script src="jquery.js"></script>
+	<script src="jquery-ui.min.js"></script>
+	<script src="desktop-ui.js"></script>
+</body>
+</html>
